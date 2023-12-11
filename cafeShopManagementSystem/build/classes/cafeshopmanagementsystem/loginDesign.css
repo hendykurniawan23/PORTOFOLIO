@@ -1,0 +1,48 @@
+
+@import url("resources/all.min.css");
+
+.gradient{
+    -fx-background-color: linear-gradient(to bottom right, #787772, #787772);
+}
+
+.white-form{
+    -fx-background-color: #e2e2e2;
+}
+
+.head-label{
+    -fx-border-color: #e2e2e2;
+    -fx-border-width: 0 0 0 3px;
+    -fx-padding: 0 0 0 5px;
+}
+
+.login-btn{
+    -fx-background-color: linear-gradient(to bottom right, #2f2704, #2f2704); 
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+    -fx-font-size: 14px;
+}
+.login-btn:hover{
+    -fx-background-color: linear-gradient(to bottom right, #0fb565, #399a8f); 
+}
+
+.textfield{
+    -fx-background-color: transparent;
+    -fx-border-color: linear-gradient(to bottom right, #2f2704, #2f2704);
+    -fx-border-width: .5px;
+}
+.textfield:focused{
+    -fx-border-width: 1px;
+}
+
+.create-btn{
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+    -fx-border-color: #fff;
+    -fx-border-width: 1px;
+}
+.create-btn:hover{
+    -fx-background-color: #fff;
+    -fx-text-fill: #000;
+}
